@@ -1,2 +1,2 @@
-n=int(input())
-print((n*1000)//100)
+x=int(input())
+print(x-15)
