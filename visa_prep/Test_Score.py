@@ -1,7 +1,5 @@
 n,x,y = map(int,input().split())
-for i in range(n): 
-    if i*x==y: 
-        print("YES")
-        break
+if y%x==0 and y//x<=n:
+    print("YES")
 else : 
     print("NO")
